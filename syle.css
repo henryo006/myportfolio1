@@ -1,0 +1,25 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+body { background:#0f0f0f; color:white; }
+a { text-decoration:none; }
+
+.hero { padding:50px 20px; text-align:center; }
+.hero h1 { font-size:32px; }
+.hero h1 span { color:#e63946; }
+.hero p { color:#aaa; margin:15px 0 25px; line-height:1.5; }
+.btn { display:inline-block; background:#e63946; color:white; padding:12px 25px; border-radius:25px; font-weight:bold; margin:5px; }
+.btn2 { display:inline-block; background:transparent; color:white; border:1px solid #555; padding:12px 25px; border-radius:25px; font-weight:bold; margin:5px; }
+
+.section { padding:30px 20px; max-width:700px; margin:auto; }
+.section h2 { font-size:22px; margin-bottom:20px; border-left:4px solid #e63946; padding-left:10px; }
+
+.project { background:#1c1c1c; border:1px solid #333; border-radius:12px; padding:18px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; gap:15px; }
+.project h3 { font-size:17px; margin-bottom:5px; }
+.project p { color:#aaa; font-size:13px; line-height:1.4; }
+.project a { background:#e63946; color:white; padding:8px 16px; border-radius:20px; font-size:13px; font-weight:bold; white-space:nowrap; }
+
+.skills { display:flex; flex-wrap:wrap; gap:10px; }
+.skill { background:#1c1c1c; border:1px solid #333; padding:8px 15px; border-radius:20px; font-size:13px; }
+
+.contact { background:#1c1c1c; border-radius:12px; padding:25px; text-align:center; }
+.contact p { color:#aaa; margin:10px 0 20px; }
+footer { text-align:center; padding:20px; color:#666; font-size:12px; }
